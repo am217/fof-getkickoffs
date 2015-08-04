@@ -1,6 +1,11 @@
 # fof-getkickoffs
 Get kickoffs statistics for a Front Office Football Seven player from game-generated HTML log files, using R.
 
+## Requirements
+1. Front Office Football Seven
+2. R
+3. R's XML package (`install.packages("XML")`)
+
 ## Sample usage
 
     > getKickoffs("Harvey Soward", user="windowsusername", league="OSFL2007", year=2036:2038)
