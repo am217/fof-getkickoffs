@@ -11,7 +11,7 @@
 #   league: character league name
 #   year: numeric vector of variable length specifying years of interest
 # Return:
-#   str(list); summary of list which contains
+#   list:
 #     count = # of kickoffs
 #     mean = mean of kickoff yardage
 #     sd = standard deviation of kickoff yardage
@@ -98,5 +98,6 @@ getKickoffs <- function(player,
     le50 = c(le50, le50/count)
   )
   
-  return(str(result))
+  print(str(result))
+  invisible(result))
 }
