@@ -99,5 +99,5 @@ getKickoffs <- function(player,
   )
   
   print(str(result))
-  invisible(result))
+  invisible(result)
 }
