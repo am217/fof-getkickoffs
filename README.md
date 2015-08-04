@@ -1,5 +1,5 @@
 # fof-getkickoffs
-[Front Office Football Seven] Get kickoffs statistics for a player from game-generated HTML log files.
+Get kickoffs statistics for a Front Office Football Seven player from game-generated HTML log files, using R.
 
 ## Sample usage
 
