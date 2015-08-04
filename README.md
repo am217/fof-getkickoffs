@@ -7,7 +7,7 @@ Get kickoffs statistics for a Front Office Football Seven player from game-gener
 3. R's XML package (`install.packages("XML")`)
 
 ## Sample usage
-
+    > source("getKickoffs.R")
     > getKickoffs("Harvey Soward", user="windowsusername", league="OSFL2007", year=2036:2038)
     List of 7
      $ count: int 346
