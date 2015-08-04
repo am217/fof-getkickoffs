@@ -98,6 +98,6 @@ getKickoffs <- function(player,
     le50 = c(le50, le50/count)
   )
   
-  print(str(result))
+  str(result)
   invisible(result)
 }
